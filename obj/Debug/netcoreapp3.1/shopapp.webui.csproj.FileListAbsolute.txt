@@ -39,3 +39,4 @@ C:\Users\User\Desktop\ShopApp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\User\Desktop\ShopApp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_header.cshtml.g.cs
 C:\Users\User\Desktop\ShopApp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_noproduct.cshtml.g.cs
 C:\Users\User\Desktop\ShopApp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_sneaker.cshtml.g.cs
+C:\Users\User\Desktop\ShopApp\shopapp.webui\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_categories.cshtml.g.cs

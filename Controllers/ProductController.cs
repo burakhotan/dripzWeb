@@ -21,10 +21,16 @@ namespace shopapp.webui.Controllers
                 new Product{Name="AJ 1 Retro High Bloodline ",Price=1970,Description="Brand New", Image="https://stockx-360.imgix.net//Air-Jordan-1-Retro-High-Bloodline/Images/Air-Jordan-1-Retro-High-Bloodline/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1573759145"}
             };
 
-            var category= new Category{Name="Sneakers",Description="Sneakers Category"};
-            
+            var categories = new List<Category>()
+            {
+                new Category{Name="Sneakers",Description="Sneakers Category"},
+                new Category{Name="Apparel",Description="Apparel Category"}
+                
+            };
+
+
             var productViewModel = new ProductViewModel(){
-                Category=category,
+                Categories=categories,
                 Products=products
             };
 
