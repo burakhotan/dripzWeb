@@ -20,17 +20,8 @@ namespace shopapp.webui.Controllers
                 new Product{Name="AJ 1 Retro High Travis Scott",Price=3600,Description="Brand New",isApproved=true, Image="https://stockx.imgix.net/Air-Jordan-1-Retro-High-Travis-Scott-Product.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&dpr=2&trim=color&updated_at=1550180948"},
                 new Product{Name="AJ 1 Retro High Bloodline ",Price=1970,Description="Brand New", Image="https://stockx-360.imgix.net//Air-Jordan-1-Retro-High-Bloodline/Images/Air-Jordan-1-Retro-High-Bloodline/Lv2/img01.jpg?auto=format,compress&w=559&q=90&dpr=2&updated_at=1573759145"}
             };
-
-            var categories = new List<Category>()
-            {
-                new Category{Name="Sneakers",Description="Sneakers Category"},
-                new Category{Name="Apparel",Description="Apparel Category"}
-                
-            };
-
-
+            
             var productViewModel = new ProductViewModel(){
-                Categories=categories,
                 Products=products
             };
 
